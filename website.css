@@ -1,0 +1,101 @@
+.header1 video{height:500px;
+                           widht:400px; margin-left:20%;}
+.header2{background:blue;}
+.header3 { margin-left:40%; 
+                   }
+#content nav a{color: white; padding:20px; text-decoration:none;  font-size:30;}
+#content nav a:hover{color: blue; text-decoration:underline;  font-size:40;}
+.menu{
+	width:100%;
+	height:400px  ;
+	 background-image:url("15.jpg");
+	     background-repeat:no-repeat;
+	    background-position:center center;
+           background-size:100% 100%;
+           animation-name:simran;
+	 animation-duration:12S;
+ 	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+           }
+ 
+@keyframes simran{
+ 	0%{ background-image:url("1.jpg");}
+	35%{ background-image:url("2.jpg");}
+          75%{ background-image:url("15.jpg");}
+}
+.gallery{height:80%;
+              widht:100%;
+background-color:c5d8d0;
+}
+.gallery1{
+             width:40%;
+             height:90%;
+             background-image:url("10.jpg");}
+.gallery2 { width:40%;
+             height:80%;
+             background-image:url("4.jpg"); 
+             margin-left:50%;
+             margin-top:-30%;}
+ .photo{background:red;
+              height:80%;
+              widht:100%;
+}
+.photo1{width:40%;
+             height:60%;
+             background-image:url("12.jpg"); 
+}
+.addmission{width:100%;
+             height:10%;
+          background:red;
+            }
+.page {background:black;
+            widht:40%;
+            height:50%;
+}
+ .logo{ width:19%;
+             height:54%;
+          background:white;
+            margin-left:40%;
+       background-image:url("61.jpg");
+}
+.dell{
+         margin-left:30%;
+           font-size:30;
+         font-color:white;}
+.insta{  width:6.5%;
+             height:19%;
+          background:white;
+         margin-top:2%;
+       background-image:url("58.jpg");
+}
+..insta{  width:4.5%;
+             height:10%;
+          background:white;
+            margin-left:30%;
+           margin-top:5%;
+       background-image:url("58.jpg");
+}
+.whats{  width:9%;
+             height:24%;
+          background:white;
+            margin-left:13%;
+            margin-top:-7%;
+       background-image:url("56.jpg");
+}
+.youtube{  width:8%;
+             height:17%;
+          background:white;
+            margin-left:28%;
+           margin-top:-6%;
+       background-image:url("59.jpg");
+}
+.facebook{  width:6%;
+             height:23%;
+          background:white;
+            margin-left:42%;
+           margin-top:-8%;
+       background-image:url("60.jpg");}
+
+
+
+
